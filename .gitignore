@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# TensorFlow
+logs/
+*.h5
+*.ckpt
+*.pb
+saved_model/
+exported_model/
+
+!logs/
+!logs/README.md
+!logs/training_log.csv
+!saved_model/
+!saved_model/README.md
+!saved_model/metadata.json
+!saved_model/monkeypox_vit.keras
+
+# Data
+dataset/
+temp_dataset/
+*.csv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+
+# Streamlit
+.streamlit/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Models
+*.pkl
+*.joblib
+
+# Misc
+.env
+*.log
+
